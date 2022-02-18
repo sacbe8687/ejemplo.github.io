@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+<div id="contenedor">
+
+<form action="mailto:sacbe.pinales@umm.edu.mx?cc=sacbe.pinales@umm.edu.mx&subject=Correo%20de%20Prueba" method="post" enctype="text/plain">
+<label for="Nombre">Nombre: </label><input type="text" name="Nombre" size="25" maxlength="50"><br/>
+<label for="Apellidos">Apellidos: </label><input type="text" name="Apellidos" size="35" maxlength="100"><br/>
+<label for="Correo">Correo Electronico: </label><input type="text" value="@" name="Correo" size="40" maxlength="100"><br/>
+<label for="Estado">Estado: </label><input type="text" name="Estado" size="15" maxlength="50"><br/>
+<label for="Municipio">Municipio: </label><input type="text" name="Municipio" size="15" maxlength="50"><br/><br/>
+<label for="edad">Edad:</label><br/>
+<input type="radio" id="edad1" name="Edad" value="0-20 años"><label for="edad1">0-20 años</label><br/>
+<input type="radio" id="edad2" name="Edad" value="21-40 años"><label for="edad2">21-40 años</label><br/>
+<input type="radio" id="edad3" name="Edad" value="41-60 años"><label for="edad3">41-60 años</label><br/>
+<input type="radio" id="edad4" name="Edad" value="61-100 años"><label for="edad1">61-100 años</label><br/><br/>
+
+<label for="conocer">¿Como nos conociste?</label><br/>
+<input type="checkbox" name="Encontrar" value="Amigos" checked>Amigos<br/>
+<input type="checkbox" name="Encontrar" value="Navegador">Navegador<br/>
+<input type="checkbox" name="Encontrar" value="Recomendacion">Recomendacion<br/>
+<input type="checkbox" name="Encontrar" value="Otros">Otros<br/><br/>
+
+<label for="opinion">Opinion sobre nuestra pagina web</label><br/>
+<textarea cols="40" rows="5" name="Opinion"></textarea><br/><br/>
+<label for="sugerencias">Tienes alguna sugerencia...</label><br/>
+<textarea cols="40" rows="5" name="Sugerencias"></textarea><br/><br/>
+
+<label for="frecuencia">¿Cuantas horas navegas por internet? (Elija la opcion mas aproximada)</bale><br/>
+<select name="Frecuencias" size="1">
+<option value="2 horas al dia">2 horas al dia
+<option value="4 horas al dia">4 horas al dia
+<option value="10 horas al dia">10 horas a la semana
+<option value="20 horas al dia">20 horas al mes
+</select><br/><br/>
+
+<input type="submit" value="Enviar Formulario">
+<input type="Reset" value="Borrar Formulario">
+
+</form>
+</div>
+</body>
+</html>
